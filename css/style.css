@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+    background-color: cyan;
+}
+  
+h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+  
+  }
+  p{
+    font-family: 'Sacramento', cursive;
+      font-size: 30px;
+  }
+  hr{
+    border: dotted #b4c2c2 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 20px auto;
+}
+.middle-container{
+    margin: auto 150px;
+    background-color: white;
+}
+h2{
+     font-size: 40px ;
+     font-family: 'Sacramento', cursive;
+}
+h3{
+  font-size: 25px;
+}
+.cp{
+  font-size: 25px;
+}
+.eye{
+  position: relative;
+  height: 90px;
+  width: 85px;
+}
+.ear{
+    
+    position: relative;
+    height: 90px;
+    width: 85px;
+  }
+
+.nose{
+  
+  position: relative;
+  height: 85px;
+  width: 70px;
+}
+.skin{
+  
+  position: relative;
+  height: 90px;
+  width: 95px;
+}
+
+.tongue{
+  
+  position: relative;
+  height: 90px;
+  width: 85px;
+}
+.draggable{
+  cursor: move;
+  transition: opacity 0.2s;
+  margin: 10px;
+}
+.draggable:hover{
+  opacity: 0.5;
+}
+.droppable{
+  border: 3px dashed #111;
+   display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+  background-color: burlywood;
+}
+
+.droppable span{
+  justify-content: center;
+  font-size: 2rem;
+  pointer-events: none;
+}
+.droppable.droppable-hover{
+  border-width: solid;
+  transform: scale(1.1);
+}
+.droppable.dropped{
+  border-style: solid;
+  color: #fff;
+}
+.droppable.dropped span{
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+.draggable.dragged{
+   user-select: none;
+   opacity: 0.1;
+   cursor: default;
+}
+.draggable.dragged:hover{
+     opacity: 0.1;
+}
+#footer{
+
+  background-color: cyan;
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+.draggable-elements{
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+}
